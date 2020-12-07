@@ -107,6 +107,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 0px;
+    background-color: #f1c40f;
 }
 .portfolioPageSplit {
     width: 50%;
@@ -126,7 +127,9 @@
 .rightAbout {
     display: flex;
     justify-content: center;
+    padding: 35px 0px;
     align-items: center;
+    background-color: white;
 }
 .portfolioUserSummary {
     width: 60%;
@@ -243,6 +246,12 @@
     margin: auto;
     margin-top: 3px;
     margin-bottom: 3px;
+}
+.portfolioVolunteerExpansionPanel .portfolioCardDateContainer {
+    padding: 0px 12px;
+    width: auto;
+    margin-left: 0px;
+    margin-right: auto;
 }
 .portfolioExpansionPanelTitle {
     flex-basis: 60%;
